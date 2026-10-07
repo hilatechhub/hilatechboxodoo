@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <template id="hilatech_favicon" inherit_id="web.layout">
+        <xpath expr="//link[@rel='shortcut icon']" position="replace">
+            <t t-set="c" t-value="request.env.company.sudo()"/>
+            <link rel="shortcut icon" t-attf-href="/web/image/res.company/#{c.id}/theme_favicon" type="image/x-icon" t-if="c.theme_favicon"/>
+            <link rel="shortcut icon" type="image/x-icon" href="/web/static/img/favicon.ico" t-else=""/>
+        </xpath>
+    </template>
+
+    <template id="hilatech_css" inherit_id="web.layout">
+        <xpath expr="//head" position="inside">
+            <t t-set="c" t-value="request.env.company.sudo()"/>
+            <style>
+<t t-set="hl_dark" t-value="request.env['ir.http'].color_scheme() == 'dark'"/>
+<t t-if="c.theme_home_bg if hl_dark else c.theme_home_bg_light">
+.o_home_menu_background { background-image: url('/hilatech/theme/home_bg') !important; background-size: cover !important; background-position: center !important; }
+<t t-if="c.theme_home_overlay">.o_home_menu_background::before { content: ''; position: fixed; inset: 0; background: rgba(0,0,0,0.45); z-index: 0; pointer-events: none; }
+.o_home_menu { position: relative; z-index: 1; }</t>
+<t t-if="c.theme_home_blur">.o_home_menu_background { backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); }</t>
+</t>
+            </style>
+            <link rel="stylesheet" href="/hilatech/theme/module_colors.css"/>
+        </xpath>
+    </template>
+
+    <template id="hilatech_login_bg" inherit_id="web.frontend_layout">
+        <xpath expr="//div[@id='wrapwrap']" position="attributes">
+            <attribute name="t-attf-style">#{"background-image: url('/hilatech/theme/login_bg'); background-size: cover; background-position: center;" if response_template == 'web.login' else ""}</attribute>
+        </xpath>
+    </template>
+
+    <template id="hilatech_footer" inherit_id="web.login_layout">
+        <xpath expr="//div[@class='text-center small mt-4 pt-3 border-top']" position="replace">
+            <t t-set="footer_text" t-value="(request.env.company.sudo().theme_login_footer or '').strip()"/>
+            <div class="text-center small mt-4 pt-3 border-top">
+                <t t-if="footer_text and footer_text != 'Powered by Odoo'">
+                    <t t-out="footer_text"/>
+                </t>
+                <t t-else="">
+                    <a href="https://www.odoo.com?utm_source=db&amp;utm_medium=auth">Powered by Odoo</a>
+                </t>
+            </div>
+        </xpath>
+    </template>
+    <template id="hilatech_webclient_bootstrap" inherit_id="web.webclient_bootstrap">
+        <xpath expr="//meta[@name='theme-color']" position="replace">
+            <meta name="theme-color" t-att-content="'#242733' if color_scheme == 'dark' else '#714B67'"/>
+        </xpath>
+        <xpath expr="//t[@t-set='body_classname']" position="after">
+            <t t-set="body_classname" t-value="'%s hl_sidebar_type_%s' % (body_classname, request.env.user.sidebar_type or 'large')"/>
+        </xpath>
+    </template>
+
+</odoo>

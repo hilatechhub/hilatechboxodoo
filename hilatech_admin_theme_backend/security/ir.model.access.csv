@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_hilatech_theme_settings,access_hilatech_theme_settings,model_hilatech_theme_settings,base.group_user,1,0,0,0
+access_hilatech_theme_settings_admin,access_hilatech_theme_settings_admin,model_hilatech_theme_settings,base.group_system,1,1,1,1

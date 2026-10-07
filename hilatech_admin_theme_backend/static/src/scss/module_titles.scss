@@ -1,0 +1,11 @@
+// Module Title Styling Base
+// Default styles - overridden by dynamic CSS from /hilatech/theme/module_colors.css
+
+.o_home_menu .o_app {
+    .o_caption {
+        font-weight: 600;
+        // Defaults will be overridden by dynamic CSS
+        color: #1d1d1d;
+        text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6);
+    }
+}

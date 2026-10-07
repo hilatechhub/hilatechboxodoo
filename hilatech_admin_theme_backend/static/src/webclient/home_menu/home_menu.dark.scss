@@ -1,0 +1,39 @@
+// = Home Menu
+// ============================================================================
+// No CSS hacks, variables overrides only
+
+.o_home_menu_background {
+
+    .o_app_icon {
+        --AppSwitcherIcon-background: #{rgba(#fff, .05)};
+        --AppSwitcherIcon-inset-shadow: #{inset 0 0 0 1px rgba(#fff, .1)};
+        --AppSwitcherIcon-border-color: transparent;
+    }
+
+    .o_app:hover .o_app_icon {
+        --AppSwitcherIcon-inset-shadow: #{inset 0 0 0 1px rgba(#fff, .2)}; 
+    }
+}
+
+// Home menu texts: white in dark mode
+body.o_home_menu_background .o_main_navbar {
+    &, .o_menu_systray, .o_menu_systray .o-dropdown > button, .o_menu_systray .o_nav_entry,
+    .o_menu_systray i, .o_menu_systray span:not(.badge), .o_user_menu, .o_menu_toggle, .o_menu_brand {
+        color: #fff;
+    }
+}
+
+.o_home_menu .o_hl_welcome_card {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    color: #fff;
+
+    .o_hl_welcome_avatar {
+        border-color: rgba(255, 255, 255, 0.6);
+    }
+
+    .o_hl_welcome_date {
+        background: rgba(255, 255, 255, 0.14);
+    }
+}

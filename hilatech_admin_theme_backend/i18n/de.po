@@ -1,0 +1,625 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hilatech_admin_theme_backend
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0-20260217\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-06 14:28+0000\n"
+"PO-Revision-Date: 2026-10-06 14:28+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: de\n"
+"Plural-Forms: \n"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "#111827"
+msgstr ""
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "#1d1d1d"
+msgstr ""
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "#5a3c52"
+msgstr ""
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "#714B67"
+msgstr ""
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "#d8dadd"
+msgstr ""
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "#dee2e6"
+msgstr ""
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "#e7e9ed"
+msgstr ""
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "#ffffff"
+msgstr ""
+
+#. module: hilatech_admin_theme_backend
+#. odoo-javascript
+#: code:addons/hilatech_admin_theme_backend/static/src/views/list/list_renderer_desktop.xml:0
+msgid "Add Custom Field"
+msgstr "Benutzerdefiniertes Feld hinzufügen"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__appbar_image
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__appbar_image
+msgid "Apps Menu Footer Image"
+msgstr "Fußbild des App-Menüs"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Apps Sidebar Logo"
+msgstr "Logo der Seitenleiste"
+
+#. module: hilatech_admin_theme_backend
+#. odoo-javascript
+#: code:addons/hilatech_admin_theme_backend/static/src/views/view_components/group_config_menu_patch.js:0
+msgid "Automations"
+msgstr "Automatisierungen"
+
+#. module: hilatech_admin_theme_backend
+#. odoo-javascript
+#: code:addons/hilatech_admin_theme_backend/static/src/webclient/home_menu/home_menu.xml:0
+msgid "Avatar"
+msgstr "Avatar"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Background color. Defaults to the primary color."
+msgstr "Hintergrundfarbe. Standardmäßig die Primärfarbe."
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid ""
+"Background of the left apps sidebar. Each user picks its size in "
+"Preferences."
+msgstr "Hintergrund der App-Seitenleiste. Jeder Benutzer wählt die Größe in seinen Einstellungen."
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Background of the top navigation bar."
+msgstr "Hintergrund der oberen Navigationsleiste."
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Blur Background"
+msgstr "Hintergrund unscharf machen"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Blur the background picture."
+msgstr "Macht das Hintergrundbild unscharf."
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "CSS color of the text shadow, e.g. rgba(255, 255, 255, 0.6)."
+msgstr "CSS-Farbe des Textschattens, z. B. rgba(255, 255, 255, 0.6)."
+
+#. module: hilatech_admin_theme_backend
+#. odoo-javascript
+#: code:addons/hilatech_admin_theme_backend/static/src/webclient/share_url/burger_menu.xml:0
+msgid "Close menu"
+msgstr "Menü schließen"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_users_settings__color_scheme
+msgid "Color Scheme"
+msgstr "Farbschema"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Color of the application names in dark mode."
+msgstr "Farbe der Anwendungsnamen im Dunkelmodus."
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Color of the application names."
+msgstr "Farbe der Anwendungsnamen."
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model,name:hilatech_admin_theme_backend.model_res_company
+msgid "Companies"
+msgstr ""
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model,name:hilatech_admin_theme_backend.model_res_config_settings
+msgid "Config Settings"
+msgstr ""
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields.selection,name:hilatech_admin_theme_backend.selection__res_users_settings__color_scheme__dark
+msgid "Dark"
+msgstr "Dunkel"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Dark Overlay"
+msgstr "Dunkle Überlagerung"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Darken the background picture so icons and titles stay readable."
+msgstr "Dunkelt das Hintergrundbild ab, damit Symbole und Titel lesbar bleiben."
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_ir_http__display_name
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__display_name
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_users__display_name
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_users_settings__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__theme_favicon
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__theme_favicon
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Favicon"
+msgstr "Favicon"
+
+#. module: hilatech_admin_theme_backend
+#. odoo-javascript
+#: code:addons/hilatech_admin_theme_backend/static/src/webclient/home_menu/home_menu.js:0
+msgid "Good afternoon"
+msgstr "Guten Tag"
+
+#. module: hilatech_admin_theme_backend
+#. odoo-javascript
+#: code:addons/hilatech_admin_theme_backend/static/src/webclient/home_menu/home_menu.js:0
+msgid "Good evening"
+msgstr "Guten Abend"
+
+#. module: hilatech_admin_theme_backend
+#. odoo-javascript
+#: code:addons/hilatech_admin_theme_backend/static/src/webclient/home_menu/home_menu.js:0
+msgid "Good morning"
+msgstr "Guten Morgen"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model,name:hilatech_admin_theme_backend.model_ir_http
+msgid "HTTP Routing"
+msgstr ""
+
+#. module: hilatech_admin_theme_backend
+#. odoo-javascript
+#: code:addons/hilatech_admin_theme_backend/static/src/webclient/home_menu/home_menu.js:0
+msgid "Hello, welcome back"
+msgstr "Hallo, willkommen zurück"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid ""
+"Highlight color of the current and hovered app. Defaults to the primary "
+"color."
+msgstr "Hervorhebungsfarbe der aktuellen und überfahrenen App. Standardmäßig die Primärfarbe."
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Hilatech Theme - Buttons"
+msgstr "Hilatech-Theme - Schaltflächen"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Hilatech Theme - Colors"
+msgstr "Hilatech-Theme - Farben"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Hilatech Theme - Home Menu"
+msgstr "Hilatech-Theme - Startmenü"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Hilatech Theme - Identity"
+msgstr "Hilatech-Theme - Identität"
+
+#. module: hilatech_admin_theme_backend
+#. odoo-javascript
+#: code:addons/hilatech_admin_theme_backend/static/src/webclient/home_menu/home_menu_service.js:0
+msgid "Home"
+msgstr "Startseite"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__theme_home_bg
+msgid "Home Background"
+msgstr "Startseitenhintergrund"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Home Background - Dark Mode"
+msgstr "Startseitenhintergrund - Dunkelmodus"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Home Background - Light Mode"
+msgstr "Startseitenhintergrund - Hellmodus"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__theme_home_blur
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__theme_home_blur
+msgid "Home Blur"
+msgstr "Unschärfe der Startseite"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__theme_home_bg
+msgid "Home Menu Background (Dark Mode)"
+msgstr "Startmenü-Hintergrund (Dunkelmodus)"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__theme_home_bg_light
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__theme_home_bg_light
+msgid "Home Menu Background (Light Mode)"
+msgstr "Startmenü-Hintergrund (Hellmodus)"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_users_settings__homemenu_config
+msgid "Home Menu Configuration"
+msgstr "Startmenü-Konfiguration"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__theme_home_overlay
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__theme_home_overlay
+msgid "Home Overlay"
+msgstr "Überlagerung der Startseite"
+
+#. module: hilatech_admin_theme_backend
+#. odoo-javascript
+#: code:addons/hilatech_admin_theme_backend/static/src/webclient/navbar/navbar.js:0
+msgid "Home menu"
+msgstr "Startmenü"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_ir_http__id
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__id
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__id
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_users__id
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_users_settings__id
+msgid "ID"
+msgstr ""
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields.selection,name:hilatech_admin_theme_backend.selection__res_users__sidebar_type__invisible
+msgid "Invisible"
+msgstr "Unsichtbar"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields.selection,name:hilatech_admin_theme_backend.selection__res_users__sidebar_type__large
+msgid "Large"
+msgstr "Groß"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields.selection,name:hilatech_admin_theme_backend.selection__res_users_settings__color_scheme__light
+msgid "Light"
+msgstr "Hell"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__theme_login_bg
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__theme_login_bg
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Login Background"
+msgstr "Anmeldehintergrund"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__theme_login_footer
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__theme_login_footer
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Login Footer Text"
+msgstr "Fußzeilentext der Anmeldeseite"
+
+#. module: hilatech_admin_theme_backend
+#. odoo-javascript
+#: code:addons/hilatech_admin_theme_backend/static/src/webclient/appsbar/appsbar.xml:0
+msgid "Logo"
+msgstr ""
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Logo shown at the bottom of the apps sidebar."
+msgstr "Logo am unteren Rand der App-Seitenleiste."
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid ""
+"Main brand color. Leave empty to keep the default. Use CSS colors such as "
+"#714B67."
+msgstr "Hauptmarkenfarbe. Leer lassen, um den Standard zu behalten. CSS-Farben wie #714B67 verwenden."
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__theme_module_title_dark
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__theme_module_title_dark
+msgid "Module Title Color (Dark Mode)"
+msgstr "Farbe der Modultitel (Dunkelmodus)"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__theme_module_title_light
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__theme_module_title_light
+msgid "Module Title Color (Light Mode)"
+msgstr "Farbe der Modultitel (Hellmodus)"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__theme_module_title_shadow
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__theme_module_title_shadow
+msgid "Module Title Shadow"
+msgstr "Schatten der Modultitel"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__theme_navbar_bg
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__theme_navbar_bg
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Navbar Background"
+msgstr "Hintergrund der Navigationsleiste"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Navbar Text"
+msgstr "Text der Navigationsleiste"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__theme_navbar_color
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__theme_navbar_color
+msgid "Navbar Text Color"
+msgstr "Textfarbe der Navigationsleiste"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__theme_home_navbar_color
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__theme_home_navbar_color
+msgid "Navbar Text on Home Menu"
+msgstr "Text der oberen Leiste im Startmenü"
+
+#. module: hilatech_admin_theme_backend
+#. odoo-javascript
+#: code:addons/hilatech_admin_theme_backend/static/src/webclient/home_menu/home_menu.xml:0
+msgid "No result"
+msgstr "Kein Ergebnis"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid ""
+"Picture behind the application grid in dark mode. Use a dark picture: texts "
+"are white. Empty = Odoo default."
+msgstr "Bild hinter dem Anwendungsraster im Dunkelmodus. Ein dunkles Bild verwenden: Texte sind weiß. Leer = Odoo-Standard."
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid ""
+"Picture behind the application grid in light mode. Use a light picture: "
+"texts are black. Empty = Odoo default. Recommended: 1920x1080."
+msgstr "Bild hinter dem Anwendungsraster im Hellmodus. Ein helles Bild verwenden: Texte sind schwarz. Leer = Odoo-Standard. Empfohlen: 1920x1080."
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Picture displayed behind the login form. Recommended: 1920x1080."
+msgstr "Bild hinter dem Anmeldeformular. Empfohlen: 1920x1080."
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.hilatech_footer
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Powered by Odoo"
+msgstr ""
+
+#. module: hilatech_admin_theme_backend
+#. odoo-javascript
+#: code:addons/hilatech_admin_theme_backend/static/src/webclient/navbar/navbar.js:0
+msgid "Previous view"
+msgstr "Vorherige Ansicht"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Primary Button"
+msgstr "Primäre Schaltfläche"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__theme_btn_primary_bg
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__theme_btn_primary_bg
+msgid "Primary Button Background"
+msgstr "Hintergrund der primären Schaltfläche"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__theme_btn_primary_hover
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__theme_btn_primary_hover
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Primary Button Hover"
+msgstr "Primäre Schaltfläche (Hover)"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__theme_btn_primary_text
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__theme_btn_primary_text
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Primary Button Text"
+msgstr "Text der primären Schaltfläche"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__theme_primary_color
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__theme_primary_color
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Primary Color"
+msgstr "Primärfarbe"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Secondary Button"
+msgstr "Sekundäre Schaltfläche"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__theme_btn_secondary_bg
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__theme_btn_secondary_bg
+msgid "Secondary Button Background"
+msgstr "Hintergrund der sekundären Schaltfläche"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__theme_btn_secondary_hover
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__theme_btn_secondary_hover
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Secondary Button Hover"
+msgstr "Sekundäre Schaltfläche (Hover)"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__theme_btn_secondary_text
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__theme_btn_secondary_text
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Secondary Button Text"
+msgstr "Text der sekundären Schaltfläche"
+
+#. module: hilatech_admin_theme_backend
+#. odoo-javascript
+#: code:addons/hilatech_admin_theme_backend/static/src/webclient/share_url/burger_menu.xml:0
+msgid "Share URL"
+msgstr "URL teilen"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Sidebar Active / Hover"
+msgstr "Seitenleiste: aktiv / Hover"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__theme_appbar_active
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__theme_appbar_active
+msgid "Sidebar Active/Hover Color"
+msgstr "Aktiv-/Hover-Farbe der Seitenleiste"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__theme_appbar_bg
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__theme_appbar_bg
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Sidebar Background"
+msgstr "Hintergrund der Seitenleiste"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Sidebar Text"
+msgstr "Text der Seitenleiste"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_company__theme_appbar_color
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_config_settings__theme_appbar_color
+msgid "Sidebar Text Color"
+msgstr "Textfarbe der Seitenleiste"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,field_description:hilatech_admin_theme_backend.field_res_users__sidebar_type
+msgid "Sidebar Type"
+msgstr "Seitenleistentyp"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields.selection,name:hilatech_admin_theme_backend.selection__res_users__sidebar_type__small
+msgid "Small"
+msgstr "Klein"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Small icon shown in the browser tab (PNG or ICO, square)."
+msgstr "Kleines Symbol im Browser-Tab (PNG oder ICO, quadratisch)."
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields.selection,name:hilatech_admin_theme_backend.selection__res_users_settings__color_scheme__system
+msgid "System"
+msgstr "System"
+
+#. module: hilatech_admin_theme_backend
+#. odoo-javascript
+#: code:addons/hilatech_admin_theme_backend/static/src/webclient/home_menu/home_menu.xml:0
+msgid "TIP"
+msgstr "TIPP"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid ""
+"Text and icon color of the top bar (user, company, notifications) over the "
+"background. Leave empty for black in light mode and white in dark mode."
+msgstr "Text- und Symbolfarbe der oberen Leiste (Benutzer, Firma, Benachrichtigungen) über dem Hintergrund. Leer lassen für Schwarz im Hellmodus und Weiß im Dunkelmodus."
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Text and icon color of the top navigation bar."
+msgstr "Text- und Symbolfarbe der oberen Navigationsleiste."
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Text color of the apps sidebar."
+msgstr "Textfarbe der App-Seitenleiste."
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,help:hilatech_admin_theme_backend.field_res_company__theme_home_navbar_color
+#: model:ir.model.fields,help:hilatech_admin_theme_backend.field_res_config_settings__theme_home_navbar_color
+msgid ""
+"Text color of the top bar over the home menu background, in both modes. "
+"Leave empty for black in light mode and white in dark mode."
+msgstr "Textfarbe der oberen Leiste über dem Startmenü-Hintergrund, in beiden Modi. Leer lassen für Schwarz im Hellmodus und Weiß im Dunkelmodus."
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model.fields,help:hilatech_admin_theme_backend.field_res_company__theme_login_footer
+#: model:ir.model.fields,help:hilatech_admin_theme_backend.field_res_config_settings__theme_login_footer
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid ""
+"Text shown at the bottom of the login page. Leave empty to keep the default "
+"\"Powered by Odoo\"."
+msgstr "Text am Ende der Anmeldeseite. Leer lassen, um das Standard-„Powered by Odoo“ zu behalten."
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Title Color (Dark Mode)"
+msgstr "Titelfarbe (Dunkelmodus)"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Title Color (Light Mode)"
+msgstr "Titelfarbe (Hellmodus)"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Title Shadow"
+msgstr "Titelschatten"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "Top Bar Text"
+msgstr "Text der oberen Leiste"
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model,name:hilatech_admin_theme_backend.model_res_users
+msgid "User"
+msgstr ""
+
+#. module: hilatech_admin_theme_backend
+#: model:ir.model,name:hilatech_admin_theme_backend.model_res_users_settings
+msgid "User Settings"
+msgstr ""
+
+#. module: hilatech_admin_theme_backend
+#. odoo-javascript
+#: code:addons/hilatech_admin_theme_backend/static/src/webclient/home_menu/home_menu.js:0
+msgid "Welcome"
+msgstr "Willkommen"
+
+#. module: hilatech_admin_theme_backend
+#: model_terms:ir.ui.view,arch_db:hilatech_admin_theme_backend.view_settings_theme
+msgid "rgba(255, 255, 255, 0.6)"
+msgstr ""
+
+#. module: hilatech_admin_theme_backend
+#. odoo-javascript
+#: code:addons/hilatech_admin_theme_backend/static/src/webclient/home_menu/home_menu.xml:0
+msgid "— open me anywhere with"
+msgstr "— überall öffnen mit"

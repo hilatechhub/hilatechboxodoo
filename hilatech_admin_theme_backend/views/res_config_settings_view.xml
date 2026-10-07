@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_settings_theme" model="ir.ui.view">
+        <field name="name">res.config.settings.theme</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="base_setup.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//block[@id='user_default_rights']" position="before">
+
+                <block title="Hilatech Theme - Identity" id="theme_identity_block">
+                    <setting string="Favicon" help="Small icon shown in the browser tab (PNG or ICO, square).">
+                        <field name="theme_favicon" widget="image" options="{'size': [64, 64]}"/>
+                    </setting>
+                    <setting string="Login Background" help="Picture displayed behind the login form. Recommended: 1920x1080.">
+                        <field name="theme_login_bg" widget="image" options="{'size': [320, 180]}"/>
+                    </setting>
+                    <setting string="Apps Sidebar Logo" help="Logo shown at the bottom of the apps sidebar.">
+                        <field name="appbar_image" widget="image" options="{'size': [160, 80]}"/>
+                    </setting>
+                    <setting string="Login Footer Text" help="Text shown at the bottom of the login page. Leave empty to keep the default &quot;Powered by Odoo&quot;.">
+                        <field name="theme_login_footer" placeholder="Powered by Odoo" class="w-100"/>
+                    </setting>
+                </block>
+
+                <block title="Hilatech Theme - Home Menu" id="theme_home_block">
+                    <setting string="Home Background - Light Mode" help="Picture behind the application grid in light mode. Use a light picture: texts are black. Empty = Odoo default. Recommended: 1920x1080.">
+                        <field name="theme_home_bg_light" widget="image" options="{'size': [320, 180]}"/>
+                    </setting>
+                    <setting string="Home Background - Dark Mode" help="Picture behind the application grid in dark mode. Use a dark picture: texts are white. Empty = Odoo default.">
+                        <field name="theme_home_bg" widget="image" options="{'size': [320, 180]}"/>
+                    </setting>
+                    <setting string="Dark Overlay" help="Darken the background picture so icons and titles stay readable.">
+                        <field name="theme_home_overlay"/>
+                    </setting>
+                    <setting string="Blur Background" help="Blur the background picture.">
+                        <field name="theme_home_blur"/>
+                    </setting>
+                    <setting string="Top Bar Text" help="Text and icon color of the top bar (user, company, notifications) over the background. Leave empty for black in light mode and white in dark mode.">
+                        <field name="theme_home_navbar_color" placeholder="#ffffff"/>
+                    </setting>
+                    <setting string="Title Color (Light Mode)" help="Color of the application names.">
+                        <field name="theme_module_title_light" placeholder="#1d1d1d"/>
+                    </setting>
+                    <setting string="Title Color (Dark Mode)" help="Color of the application names in dark mode.">
+                        <field name="theme_module_title_dark" placeholder="#ffffff"/>
+                    </setting>
+                    <setting string="Title Shadow" help="CSS color of the text shadow, e.g. rgba(255, 255, 255, 0.6).">
+                        <field name="theme_module_title_shadow" placeholder="rgba(255, 255, 255, 0.6)"/>
+                    </setting>
+                </block>
+
+                <block title="Hilatech Theme - Colors" id="theme_colors_block">
+                    <setting string="Primary Color" help="Main brand color. Leave empty to keep the default. Use CSS colors such as #714B67.">
+                        <field name="theme_primary_color" placeholder="#714B67"/>
+                    </setting>
+                    <setting string="Navbar Background" help="Background of the top navigation bar.">
+                        <field name="theme_navbar_bg" placeholder="#ffffff"/>
+                    </setting>
+                    <setting string="Navbar Text" help="Text and icon color of the top navigation bar.">
+                        <field name="theme_navbar_color" placeholder="#111827"/>
+                    </setting>
+                    <setting string="Sidebar Background" help="Background of the left apps sidebar. Each user picks its size in Preferences.">
+                        <field name="theme_appbar_bg" placeholder="#111827"/>
+                    </setting>
+                    <setting string="Sidebar Text" help="Text color of the apps sidebar.">
+                        <field name="theme_appbar_color" placeholder="#dee2e6"/>
+                    </setting>
+                    <setting string="Sidebar Active / Hover" help="Highlight color of the current and hovered app. Defaults to the primary color.">
+                        <field name="theme_appbar_active" placeholder="#714B67"/>
+                    </setting>
+                </block>
+
+                <block title="Hilatech Theme - Buttons" id="theme_buttons_block">
+                    <setting string="Primary Button" help="Background color. Defaults to the primary color.">
+                        <field name="theme_btn_primary_bg" placeholder="#714B67"/>
+                    </setting>
+                    <setting string="Primary Button Text">
+                        <field name="theme_btn_primary_text" placeholder="#ffffff"/>
+                    </setting>
+                    <setting string="Primary Button Hover">
+                        <field name="theme_btn_primary_hover" placeholder="#5a3c52"/>
+                    </setting>
+                    <setting string="Secondary Button">
+                        <field name="theme_btn_secondary_bg" placeholder="#e7e9ed"/>
+                    </setting>
+                    <setting string="Secondary Button Text">
+                        <field name="theme_btn_secondary_text" placeholder="#111827"/>
+                    </setting>
+                    <setting string="Secondary Button Hover">
+                        <field name="theme_btn_secondary_hover" placeholder="#d8dadd"/>
+                    </setting>
+                </block>
+
+            </xpath>
+        </field>
+    </record>
+</odoo>

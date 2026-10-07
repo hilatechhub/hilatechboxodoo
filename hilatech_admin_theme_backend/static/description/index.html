@@ -1,0 +1,708 @@
+<!--
+    Odoo Apps Store page - compatibility rules followed on purpose:
+    - ASCII only: accents are HTML entities.
+    - Inline CSS limited to the properties kept by Odoo's html_sanitize whitelist
+      (no flex, gap, box-shadow, position or "background" shorthand).
+    - Layout uses Bootstrap classes (container / row / col-*), available on the store.
+-->
+<div class="container" style="max-width:1140px; font-family:'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color:#333333;">
+
+    <!-- ===================== LANGUAGE TABS ===================== -->
+    <ul class="nav nav-tabs justify-content-end" role="tablist" style="margin-top:16px;">
+        <li class="nav-item" role="presentation"><a class="nav-link active" href="#hl-en" data-bs-toggle="tab" data-bs-target="#hl-en" role="tab" style="color:#13283F; font-weight:700; font-size:14px; padding:8px 22px;">English</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" href="#hl-fr" data-bs-toggle="tab" data-bs-target="#hl-fr" role="tab" style="color:#13283F; font-weight:700; font-size:14px; padding:8px 22px;">Fran&ccedil;ais</a></li>
+    </ul>
+
+    <div class="tab-content">
+    <div class="tab-pane fade show active" id="hl-en" role="tabpanel">
+
+    <!-- ===================== HERO ===================== -->
+    <div style="background-color:#13283F; background-image:url('back-07.png'); background-size:cover; background-position:center; border-radius:16px; padding:56px 28px 44px; text-align:center; margin-top:16px; margin-bottom:48px;">
+        <img src="img/logo_hilatech_white.png" alt="HILATECH" style="width:230px; max-width:70%; height:auto; display:block; margin:0 auto 22px;"/>
+        <div style="color:#FF7900; font-size:13px; font-weight:700; letter-spacing:3px; text-transform:uppercase; margin-bottom:12px;">Backend Theme  &#8226;  Odoo 19</div>
+        <h1 style="color:#FFFFFF; font-size:40px; line-height:1.2; font-weight:700; margin:0 0 14px;">Odoo 19 <span style="color:#FF7900;">Backend Theme</span></h1>
+        <div style="color:#D5DDE8; font-size:18px; line-height:1.6; max-width:760px; margin:0 auto 26px;">An Enterprise-grade look and feel for Odoo Community: app home menu, apps sidebar, responsive design, dark mode, branded login page, custom favicon and your own brand identity, in one install.</div>
+        <div style="margin-bottom:30px;"><span style="display:inline-block; background-color:#FFFFFF; color:#13283F; border-radius:20px; padding:6px 16px; margin:4px; font-size:13px; font-weight:700;">Odoo 19</span><span style="display:inline-block; background-color:#FFFFFF; color:#13283F; border-radius:20px; padding:6px 16px; margin:4px; font-size:13px; font-weight:700;">Community</span><span style="display:inline-block; background-color:#FF7900; color:#FFFFFF; border-radius:20px; padding:6px 16px; margin:4px; font-size:13px; font-weight:700;">$25 one-time</span></div>
+        <div class="row justify-content-center">
+            <div class="col-4 col-md-3" style="padding:6px;">
+                <div style="background-color:#1D3A57; border-radius:12px; padding:16px 6px;">
+                    <div style="color:#FF7900; font-size:32px; font-weight:700; line-height:1;">3</div>
+                    <div style="color:#D5DDE8; font-size:13px; margin-top:6px;">sidebar sizes</div>
+                </div>
+            </div>
+            <div class="col-4 col-md-3" style="padding:6px;">
+                <div style="background-color:#1D3A57; border-radius:12px; padding:16px 6px;">
+                    <div style="color:#FF7900; font-size:32px; font-weight:700; line-height:1;">2</div>
+                    <div style="color:#D5DDE8; font-size:13px; margin-top:6px;">modes: light &amp; dark</div>
+                </div>
+            </div>
+            <div class="col-4 col-md-3" style="padding:6px;">
+                <div style="background-color:#1D3A57; border-radius:12px; padding:16px 6px;">
+                    <div style="color:#FF7900; font-size:32px; font-weight:700; line-height:1;">4</div>
+                    <div style="color:#D5DDE8; font-size:13px; margin-top:6px;">languages: EN, FR, DE, ES</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== INTRO ===================== -->
+    <div style="text-align:center; max-width:840px; margin:0 auto 48px;">
+        <h2 style="color:#13283F; font-size:28px; font-weight:700; margin:0 0 14px;">Give Odoo Community an Enterprise-grade interface</h2>
+        <div style="width:60px; height:4px; background-color:#FF7900; border-radius:2px; margin:0 auto 20px;"></div>
+        <p style="font-size:16px; line-height:1.7; color:#555555; margin:0;">The default Odoo Community backend works, but it does not look like your company. <b style="color:#13283F;">Hilatech Admin Theme Backend</b> turns it into a modern, <b style="color:#13283F;">Enterprise-style</b> workspace: a full-screen <b style="color:#13283F;">home menu</b>, a slim <b style="color:#13283F;">apps sidebar</b>, a layout that adapts to phones and tablets, a <b style="color:#13283F;">dark mode</b>, and a settings page where you apply <b style="color:#13283F;">your own colors, logos, favicon, login page and backgrounds</b> - per company, without writing a line of code.</p>
+    </div>
+
+    <!-- ===================== FEATURES ===================== -->
+    <div style="background-color:#F3F5F8; border-radius:16px; padding:44px 20px 24px; margin-bottom:48px;">
+        <h2 style="text-align:center; color:#13283F; font-size:28px; font-weight:700; margin:0 0 8px;">Key features</h2><div style="width:60px; height:4px; background-color:#FF7900; border-radius:2px; margin:0 auto 30px;"></div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">01</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">Enterprise-style home menu</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">Full-screen application grid with instant search, keyboard navigation and drag-and-drop ordering saved per user.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">02</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">Apps sidebar</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">Left sidebar listing your apps with their icons. Each user chooses Large, Small or Invisible in their preferences. Optional footer logo.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">03</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">Fully responsive</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">Burger menu on mobile, adapted list, kanban and pivot views, tablet-friendly sidebar: use Odoo comfortably on any screen.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">04</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">Light &amp; dark mode</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">A real dark theme for the whole backend, selected per user, with the home menu following the mode.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">05</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">Your brand identity</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">Primary color, top bar, sidebar and primary / secondary button colors, all editable from Settings with CSS colors.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">06</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">Home menu backgrounds</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">A picture for light mode and another for dark mode behind your app grid, with optional dark overlay and blur.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">07</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">Branded login page</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">Your own background picture, company logo and footer text (instead of 'Powered by Odoo') on a clean, centered login card: the first screen your users see. The free companion module 'Database Selector Logo' also puts your logo on the database selection page.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">08</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">Custom favicon</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">Replace the Odoo icon in the browser tab with your own, per company, from a simple upload in Settings.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">09</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">Smart welcome card</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">Avatar, name, date and a live clock. The greeting changes with the user: welcome on first login, welcome back, then good morning / afternoon / evening.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">10</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">Multi-company branding</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">Every company keeps its own favicon, backgrounds, colors and sidebar logo. Switch company and the identity follows.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">11</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">Multilingual</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">Interface and settings translated in English, French, German and Spanish. Date and clock follow the user language.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">12</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">No code needed</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">Everything is configured from one Settings page: upload, pick a color, save. An empty field keeps the Odoo default.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== SCREENSHOTS ===================== -->
+    <div style="margin-bottom:48px;">
+        <h2 style="text-align:center; color:#13283F; font-size:28px; font-weight:700; margin:0 0 8px;">Screenshots</h2><div style="width:60px; height:4px; background-color:#FF7900; border-radius:2px; margin:0 auto 14px;"></div><p style="text-align:center; color:#555555; font-size:15px; margin:0 0 28px;">Real screens of the theme, in light and dark mode, on desktop and mobile.</p>
+        <div class="row justify-content-center">
+            <div class="col-md-6" style="margin-bottom:22px; text-align:center;">
+                <img src="img/screenshot_home_light.png" alt="Home menu - light mode, welcome card with live clock" class="img-fluid" style="width:100%; height:auto; border:1px solid #E6EAF0; border-radius:10px;"/>
+                <div style="color:#555555; font-size:13px; line-height:1.5; margin-top:8px;">Home menu - light mode, welcome card with live clock</div>
+            </div>
+            <div class="col-md-6" style="margin-bottom:22px; text-align:center;">
+                <img src="img/screenshot_home_dark.png" alt="Home menu - dark mode" class="img-fluid" style="width:100%; height:auto; border:1px solid #E6EAF0; border-radius:10px;"/>
+                <div style="color:#555555; font-size:13px; line-height:1.5; margin-top:8px;">Home menu - dark mode</div>
+            </div>
+            <div class="col-md-8" style="margin-bottom:22px; text-align:center;">
+                <img src="img/screenshot_login.png" alt="Branded login page: your background, logo and footer text" class="img-fluid" style="width:100%; height:auto; border:1px solid #E6EAF0; border-radius:10px;"/>
+                <div style="color:#555555; font-size:13px; line-height:1.5; margin-top:8px;">Branded login page: your background, logo and footer text</div>
+            </div>
+            <div class="col-md-6" style="margin-bottom:22px; text-align:center;">
+                <img src="img/screenshot_sidebar_light.png" alt="Apps sidebar inside an app - light mode" class="img-fluid" style="width:100%; height:auto; border:1px solid #E6EAF0; border-radius:10px;"/>
+                <div style="color:#555555; font-size:13px; line-height:1.5; margin-top:8px;">Apps sidebar inside an app - light mode</div>
+            </div>
+            <div class="col-md-6" style="margin-bottom:22px; text-align:center;">
+                <img src="img/screenshot_sidebar_dark.png" alt="Apps sidebar inside an app - dark mode" class="img-fluid" style="width:100%; height:auto; border:1px solid #E6EAF0; border-radius:10px;"/>
+                <div style="color:#555555; font-size:13px; line-height:1.5; margin-top:8px;">Apps sidebar inside an app - dark mode</div>
+            </div>
+            <div class="col-md-6" style="margin-bottom:22px; text-align:center;">
+                <img src="img/screenshot_settings_identity.png" alt="Settings: logos, favicon and home menu backgrounds" class="img-fluid" style="width:100%; height:auto; border:1px solid #E6EAF0; border-radius:10px;"/>
+                <div style="color:#555555; font-size:13px; line-height:1.5; margin-top:8px;">Settings: logos, favicon and home menu backgrounds</div>
+            </div>
+            <div class="col-md-6" style="margin-bottom:22px; text-align:center;">
+                <img src="img/screenshot_settings_colors.png" alt="Settings: brand, navbar, sidebar and button colors" class="img-fluid" style="width:100%; height:auto; border:1px solid #E6EAF0; border-radius:10px;"/>
+                <div style="color:#555555; font-size:13px; line-height:1.5; margin-top:8px;">Settings: brand, navbar, sidebar and button colors</div>
+            </div>
+            <div class="col-6 col-md-3" style="margin-bottom:22px; text-align:center;">
+                <img src="img/screenshot_mobile_home.png" alt="Responsive home menu on mobile" class="img-fluid" style="width:100%; height:auto; border:1px solid #E6EAF0; border-radius:10px;"/>
+                <div style="color:#555555; font-size:13px; line-height:1.5; margin-top:8px;">Responsive home menu on mobile</div>
+            </div>
+            <div class="col-6 col-md-3" style="margin-bottom:22px; text-align:center;">
+                <img src="img/screenshot_mobile_app.png" alt="Responsive app with burger menu" class="img-fluid" style="width:100%; height:auto; border:1px solid #E6EAF0; border-radius:10px;"/>
+                <div style="color:#555555; font-size:13px; line-height:1.5; margin-top:8px;">Responsive app with burger menu</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== WHY ===================== -->
+    <div style="text-align:center; max-width:840px; margin:0 auto 48px;">
+        <h2 style="color:#13283F; font-size:28px; font-weight:700; margin:0 0 14px;">Why choose this Odoo 19 theme?</h2>
+        <div style="width:60px; height:4px; background-color:#FF7900; border-radius:2px; margin:0 auto 20px;"></div>
+        <p style="font-size:16px; line-height:1.7; color:#555555; margin:0 0 14px;">Most backend themes are either heavy to install or hard to brand. This one is <b style="color:#13283F;">self-contained</b> (no extra module to install), <b style="color:#13283F;">light</b> (pure Odoo assets, no external library) and <b style="color:#13283F;">configurable from the UI</b>. If you are looking for an <b style="color:#13283F;">Odoo 19 Community theme</b>, an <b style="color:#13283F;">Enterprise-like backend</b>, a <b style="color:#13283F;">responsive Odoo backend</b>, a <b style="color:#13283F;">dark mode for Odoo</b> or a <b style="color:#13283F;">white-label Odoo theme</b> to match your corporate identity, this is the module.</p>
+        <p style="font-size:13px; line-height:1.6; color:#8A93A0; margin:0;">Odoo 19 theme, Odoo 19 backend theme, Odoo Community theme, Enterprise-like theme, responsive Odoo theme, Odoo dark mode, Odoo apps sidebar, Odoo home menu, white label Odoo, custom branding Odoo.</p>
+    </div>
+
+    <!-- ===================== BUILT FOR ===================== -->
+    <div style="text-align:center; margin-bottom:48px;">
+        <h2 style="text-align:center; color:#13283F; font-size:28px; font-weight:700; margin:0 0 8px;">Built for</h2><div style="width:60px; height:4px; background-color:#FF7900; border-radius:2px; margin:0 auto 30px;"></div>
+        <div style="max-width:900px; margin:0 auto;"><span style="display:inline-block; background-color:#13283F; color:#FFFFFF; border-radius:22px; padding:8px 18px; margin:5px; font-size:14px; font-weight:600;">Odoo Community users</span><span style="display:inline-block; background-color:#13283F; color:#FFFFFF; border-radius:22px; padding:8px 18px; margin:5px; font-size:14px; font-weight:600;">Integrators &amp; resellers</span><span style="display:inline-block; background-color:#13283F; color:#FFFFFF; border-radius:22px; padding:8px 18px; margin:5px; font-size:14px; font-weight:600;">Companies with a brand identity</span><span style="display:inline-block; background-color:#13283F; color:#FFFFFF; border-radius:22px; padding:8px 18px; margin:5px; font-size:14px; font-weight:600;">Multi-company groups</span><span style="display:inline-block; background-color:#FF7900; color:#FFFFFF; border-radius:22px; padding:8px 18px; margin:5px; font-size:14px; font-weight:600;">Teams working on mobile</span></div>
+    </div>
+
+    <!-- ===================== HOW IT WORKS ===================== -->
+    <div style="background-color:#F3F5F8; border-radius:16px; padding:44px 20px 30px; margin-bottom:48px;">
+        <h2 style="text-align:center; color:#13283F; font-size:28px; font-weight:700; margin:0 0 8px;">How it works</h2><div style="width:60px; height:4px; background-color:#FF7900; border-radius:2px; margin:0 auto 30px;"></div>
+        <div class="row">
+            <div class="col-md-4" style="text-align:center; margin-bottom:16px;">
+                <div style="width:56px; height:56px; line-height:56px; border-radius:28px; background-color:#FF7900; color:#FFFFFF; font-size:22px; font-weight:700; margin:0 auto 14px;">1</div>
+                <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 6px;">Install the module</h3>
+                <div style="color:#555555; font-size:14px; line-height:1.6;">Apps &gt; Hilatech Admin Theme Backend &gt; Install. The new interface is active immediately.</div>
+            </div>
+            <div class="col-md-4" style="text-align:center; margin-bottom:16px;">
+                <div style="width:56px; height:56px; line-height:56px; border-radius:28px; background-color:#FF7900; color:#FFFFFF; font-size:22px; font-weight:700; margin:0 auto 14px;">2</div>
+                <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 6px;">Apply your identity</h3>
+                <div style="color:#555555; font-size:14px; line-height:1.6;">Settings &gt; Hilatech Theme: upload your logos and backgrounds and pick your colors.</div>
+            </div>
+            <div class="col-md-4" style="text-align:center; margin-bottom:16px;">
+                <div style="width:56px; height:56px; line-height:56px; border-radius:28px; background-color:#28A745; color:#FFFFFF; font-size:22px; font-weight:700; margin:0 auto 14px;">3</div>
+                <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 6px;">Each user personalizes</h3>
+                <div style="color:#555555; font-size:14px; line-height:1.6;">Preferences: choose the sidebar size and the light or dark mode.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== FAQ ===================== -->
+    <div style="max-width:860px; margin:0 auto 48px;">
+        <h2 style="text-align:center; color:#13283F; font-size:28px; font-weight:700; margin:0 0 8px;">Frequently asked questions</h2><div style="width:60px; height:4px; background-color:#FF7900; border-radius:2px; margin:0 auto 30px;"></div>
+            <div style="background-color:#FFFFFF; border-radius:12px; border-left:4px solid #FF7900; padding:18px 22px; margin-bottom:14px;">
+                <h3 style="color:#13283F; font-size:16px; font-weight:700; margin:0 0 6px;">Does it work with Odoo Enterprise?</h3>
+                <div style="color:#555555; font-size:14px; line-height:1.6;">No. It is designed for Odoo 19 Community, which does not include the Enterprise home menu and apps sidebar. It has not been tested on Enterprise.</div>
+            </div>
+            <div style="background-color:#FFFFFF; border-radius:12px; border-left:4px solid #FF7900; padding:18px 22px; margin-bottom:14px;">
+                <h3 style="color:#13283F; font-size:16px; font-weight:700; margin:0 0 6px;">Do I need other modules?</h3>
+                <div style="color:#555555; font-size:14px; line-height:1.6;">No. The module is self-contained and only depends on web and base_setup. Do not install ica_web_responsive or muk_web_appsbar together with it: it already includes that functionality.</div>
+            </div>
+            <div style="background-color:#FFFFFF; border-radius:12px; border-left:4px solid #FF7900; padding:18px 22px; margin-bottom:14px;">
+                <h3 style="color:#13283F; font-size:16px; font-weight:700; margin:0 0 6px;">Can each company have its own colors?</h3>
+                <div style="color:#555555; font-size:14px; line-height:1.6;">Yes. Colors, favicon, backgrounds and sidebar logo are stored per company.</div>
+            </div>
+            <div style="background-color:#FFFFFF; border-radius:12px; border-left:4px solid #FF7900; padding:18px 22px; margin-bottom:14px;">
+                <h3 style="color:#13283F; font-size:16px; font-weight:700; margin:0 0 6px;">Can I go back to the default look?</h3>
+                <div style="color:#555555; font-size:14px; line-height:1.6;">Yes. Leave a color empty to keep the Odoo default, or uninstall the module.</div>
+            </div>
+    </div>
+
+    <!-- ===================== TECHNICAL ===================== -->
+    <div style="background-color:#F3F5F8; border-radius:16px; padding:44px 20px; margin-bottom:48px;">
+        <h2 style="text-align:center; color:#13283F; font-size:28px; font-weight:700; margin:0 0 8px;">Technical information</h2><div style="width:60px; height:4px; background-color:#FF7900; border-radius:2px; margin:0 auto 30px;"></div>
+        <table style="width:100%; max-width:760px; margin:0 auto; border-collapse:collapse; background-color:#FFFFFF; font-size:15px;">
+            <tr><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#13283F; font-weight:700; width:40%;">Odoo version</td><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#555555;">19.0 - Community</td></tr><tr><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#13283F; font-weight:700; width:40%;">Dependencies</td><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#555555;">web, base_setup</td></tr><tr><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#13283F; font-weight:700; width:40%;">Price</td><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#555555;">$25, one-time purchase per Odoo version</td></tr><tr><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#13283F; font-weight:700; width:40%;">Access rights</td><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#555555;">Settings: Administration / Settings</td></tr><tr><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#13283F; font-weight:700; width:40%;">Companion module</td><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#555555;">Optional and free: hilatech_db_selector_logo, your logo on the database selection page</td></tr><tr><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#13283F; font-weight:700; width:40%;">Languages</td><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#555555;">English, French, German, Spanish</td></tr><tr><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#13283F; font-weight:700; width:40%;">Credits</td><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#555555;">Inspired by ica_web_responsive (IdeaCode Academy) and muk_web_appsbar (MuK IT), both LGPL-3</td></tr><tr><td style="padding:13px 18px; color:#13283F; font-weight:700; width:40%;">License</td><td style="padding:13px 18px; color:#555555;">LGPL-3</td></tr>
+        </table>
+    </div>
+
+    <!-- ===================== OUR SERVICES ===================== -->
+    <div style="background-color:#F3F5F8; border-radius:16px; padding:44px 20px 24px; margin-bottom:48px;">
+        <h2 style="text-align:center; color:#13283F; font-size:28px; font-weight:700; margin:0 0 8px;">Our Services</h2><div style="width:60px; height:4px; background-color:#FF7900; border-radius:2px; margin:0 auto 14px;"></div><p style="text-align:center; color:#555555; font-size:15px; margin:0 0 28px;">Hilatech supports you on your whole Odoo project.</p>
+        <div class="row">
+            <div class="col-6 col-md-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px 12px; text-align:center; height:100%;">
+                    <img src="img/svc_customization.png" alt="Odoo Customization" style="width:56px; height:56px; display:block; margin:0 auto 14px;"/>
+                    <div style="color:#13283F; font-size:16px; font-weight:700;">Odoo Customization</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px 12px; text-align:center; height:100%;">
+                    <img src="img/svc_implementation.png" alt="Odoo Implementation" style="width:56px; height:56px; display:block; margin:0 auto 14px;"/>
+                    <div style="color:#13283F; font-size:16px; font-weight:700;">Odoo Implementation</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px 12px; text-align:center; height:100%;">
+                    <img src="img/svc_support.png" alt="Support &amp; Maintenance" style="width:56px; height:56px; display:block; margin:0 auto 14px;"/>
+                    <div style="color:#13283F; font-size:16px; font-weight:700;">Support &amp; Maintenance</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px 12px; text-align:center; height:100%;">
+                    <img src="img/svc_migration.png" alt="Odoo Migration" style="width:56px; height:56px; display:block; margin:0 auto 14px;"/>
+                    <div style="color:#13283F; font-size:16px; font-weight:700;">Odoo Migration</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px 12px; text-align:center; height:100%;">
+                    <img src="img/svc_integration.png" alt="Odoo Integration" style="width:56px; height:56px; display:block; margin:0 auto 14px;"/>
+                    <div style="color:#13283F; font-size:16px; font-weight:700;">Odoo Integration</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px 12px; text-align:center; height:100%;">
+                    <img src="img/svc_consulting.png" alt="Odoo Consulting" style="width:56px; height:56px; display:block; margin:0 auto 14px;"/>
+                    <div style="color:#13283F; font-size:16px; font-weight:700;">Odoo Consulting</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px 12px; text-align:center; height:100%;">
+                    <img src="img/svc_training.png" alt="Odoo Training" style="width:56px; height:56px; display:block; margin:0 auto 14px;"/>
+                    <div style="color:#13283F; font-size:16px; font-weight:700;">Odoo Training</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px 12px; text-align:center; height:100%;">
+                    <img src="img/svc_developer.png" alt="Dedicated Developer" style="width:56px; height:56px; display:block; margin:0 auto 14px;"/>
+                    <div style="color:#13283F; font-size:16px; font-weight:700;">Dedicated Developer</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== RELATED MODULES ===================== -->
+    <div style="margin-bottom:48px;">
+        <h2 style="text-align:center; color:#13283F; font-size:28px; font-weight:700; margin:0 0 8px;">Related Modules</h2><div style="width:60px; height:4px; background-color:#FF7900; border-radius:2px; margin:0 auto 14px;"></div><p style="text-align:center; color:#555555; font-size:15px; margin:0 0 28px;">Other Hilatech apps for Odoo 19.</p>
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border:1px solid #E6EAF0; border-radius:12px; padding:14px; height:100%;">
+                    <a href="https://apps.odoo.com/apps/modules/19.0/hilatech_pos_cash_closing" target="_blank"><img src="img/related_hilatech_pos_cash_closing.png" alt="POS Cash Closing" class="img-fluid" style="width:100%; height:auto; border-radius:8px; margin-bottom:14px;"/></a>
+                    <div style="color:#13283F; font-size:17px; font-weight:700; margin-bottom:6px;">POS Cash Closing</div>
+                    <div style="color:#555555; font-size:14px; line-height:1.6; margin-bottom:12px;">Daily cash count vs Odoo per payment method, shortages and overages, approval and PDF report.</div>
+                    <a href="https://apps.odoo.com/apps/modules/19.0/hilatech_pos_cash_closing" target="_blank" style="color:#FF7900; font-weight:700; font-size:14px; text-decoration:none;">View on Odoo Apps &rarr;</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border:1px solid #E6EAF0; border-radius:12px; padding:14px; height:100%;">
+                    <a href="https://apps.odoo.com/apps/modules/19.0/hilatech_hotel_management" target="_blank"><img src="img/related_hilatech_hotel_management.png" alt="Hotel Management PMS 360&#176;" class="img-fluid" style="width:100%; height:auto; border-radius:8px; margin-bottom:14px;"/></a>
+                    <div style="color:#13283F; font-size:17px; font-weight:700; margin-bottom:6px;">Hotel Management PMS 360&#176;</div>
+                    <div style="color:#555555; font-size:14px; line-height:1.6; margin-bottom:12px;">Availability planning, reservations, check-in / check-out, guest folio, invoicing and housekeeping.</div>
+                    <a href="https://apps.odoo.com/apps/modules/19.0/hilatech_hotel_management" target="_blank" style="color:#FF7900; font-weight:700; font-size:14px; text-decoration:none;">View on Odoo Apps &rarr;</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border:1px solid #E6EAF0; border-radius:12px; padding:14px; height:100%;">
+                    <a href="https://apps.odoo.com/apps/modules/19.0/hilatech_export_accounting_report" target="_blank"><img src="img/related_hilatech_export_accounting_report.png" alt="Export Accounting Reports to Excel" class="img-fluid" style="width:100%; height:auto; border-radius:8px; margin-bottom:14px;"/></a>
+                    <div style="color:#13283F; font-size:17px; font-weight:700; margin-bottom:6px;">Export Accounting Reports to Excel</div>
+                    <div style="color:#555555; font-size:14px; line-height:1.6; margin-bottom:12px;">12 Base Accounting Kit reports and your invoices exported to Excel in one click.</div>
+                    <a href="https://apps.odoo.com/apps/modules/19.0/hilatech_export_accounting_report" target="_blank" style="color:#FF7900; font-weight:700; font-size:14px; text-decoration:none;">View on Odoo Apps &rarr;</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border:1px solid #E6EAF0; border-radius:12px; padding:14px; height:100%;">
+                    <a href="https://apps.odoo.com/apps/modules/19.0/hilatech_purchase_dashboard" target="_blank"><img src="img/related_hilatech_purchase_dashboard.png" alt="Purchase Dashboard" class="img-fluid" style="width:100%; height:auto; border-radius:8px; margin-bottom:14px;"/></a>
+                    <div style="color:#13283F; font-size:17px; font-weight:700; margin-bottom:6px;">Purchase Dashboard</div>
+                    <div style="color:#555555; font-size:14px; line-height:1.6; margin-bottom:12px;">Purchases, vendor debt, orders not received or not invoiced and top suppliers at a glance.</div>
+                    <a href="https://apps.odoo.com/apps/modules/19.0/hilatech_purchase_dashboard" target="_blank" style="color:#FF7900; font-weight:700; font-size:14px; text-decoration:none;">View on Odoo Apps &rarr;</a>
+                </div>
+            </div>
+        </div>
+        <div style="text-align:center; margin-top:8px;">
+            <a href="https://apps.odoo.com/apps/modules/browse?author=HILATECH" target="_blank" rel="noopener noreferrer" style="display:inline-block; background-color:#13283F; color:#FFFFFF; text-decoration:none; font-weight:700; font-size:15px; border-radius:24px; padding:11px 28px;">See all Hilatech modules &rarr;</a>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="tab-pane fade" id="hl-fr" role="tabpanel">
+
+    <!-- ===================== HERO ===================== -->
+    <div style="background-color:#13283F; background-image:url('back-07.png'); background-size:cover; background-position:center; border-radius:16px; padding:56px 28px 44px; text-align:center; margin-top:16px; margin-bottom:48px;">
+        <img src="img/logo_hilatech_white.png" alt="HILATECH" style="width:230px; max-width:70%; height:auto; display:block; margin:0 auto 22px;"/>
+        <div style="color:#FF7900; font-size:13px; font-weight:700; letter-spacing:3px; text-transform:uppercase; margin-bottom:12px;">Th&#232;me Backend  &#8226;  Odoo 19</div>
+        <h2 style="color:#FFFFFF; font-size:40px; line-height:1.2; font-weight:700; margin:0 0 14px;">Th&#232;me Backend <span style="color:#FF7900;">Odoo 19</span></h2>
+        <div style="color:#D5DDE8; font-size:18px; line-height:1.6; max-width:760px; margin:0 auto 26px;">Une interface de niveau Enterprise pour Odoo Community : menu d'accueil des applications, barre lat&#233;rale, design responsive, mode sombre, page de connexion personnalis&#233;e, favicon et votre propre identit&#233; visuelle, en une seule installation.</div>
+        <div style="margin-bottom:30px;"><span style="display:inline-block; background-color:#FFFFFF; color:#13283F; border-radius:20px; padding:6px 16px; margin:4px; font-size:13px; font-weight:700;">Odoo 19</span><span style="display:inline-block; background-color:#FFFFFF; color:#13283F; border-radius:20px; padding:6px 16px; margin:4px; font-size:13px; font-weight:700;">Community</span><span style="display:inline-block; background-color:#FF7900; color:#FFFFFF; border-radius:20px; padding:6px 16px; margin:4px; font-size:13px; font-weight:700;">25 $ paiement unique</span></div>
+        <div class="row justify-content-center">
+            <div class="col-4 col-md-3" style="padding:6px;">
+                <div style="background-color:#1D3A57; border-radius:12px; padding:16px 6px;">
+                    <div style="color:#FF7900; font-size:32px; font-weight:700; line-height:1;">3</div>
+                    <div style="color:#D5DDE8; font-size:13px; margin-top:6px;">tailles de barre lat&#233;rale</div>
+                </div>
+            </div>
+            <div class="col-4 col-md-3" style="padding:6px;">
+                <div style="background-color:#1D3A57; border-radius:12px; padding:16px 6px;">
+                    <div style="color:#FF7900; font-size:32px; font-weight:700; line-height:1;">2</div>
+                    <div style="color:#D5DDE8; font-size:13px; margin-top:6px;">modes : clair &amp; sombre</div>
+                </div>
+            </div>
+            <div class="col-4 col-md-3" style="padding:6px;">
+                <div style="background-color:#1D3A57; border-radius:12px; padding:16px 6px;">
+                    <div style="color:#FF7900; font-size:32px; font-weight:700; line-height:1;">4</div>
+                    <div style="color:#D5DDE8; font-size:13px; margin-top:6px;">langues : EN, FR, DE, ES</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== INTRO ===================== -->
+    <div style="text-align:center; max-width:840px; margin:0 auto 48px;">
+        <h2 style="color:#13283F; font-size:28px; font-weight:700; margin:0 0 14px;">Offrez &#224; Odoo Community une interface de niveau Enterprise</h2>
+        <div style="width:60px; height:4px; background-color:#FF7900; border-radius:2px; margin:0 auto 20px;"></div>
+        <p style="font-size:16px; line-height:1.7; color:#555555; margin:0;">Le backend d'Odoo Community fonctionne, mais il ne ressemble pas &#224; votre entreprise. <b style="color:#13283F;">Hilatech Admin Theme Backend</b> le transforme en un espace de travail moderne <b style="color:#13283F;">de style Enterprise</b> : un <b style="color:#13283F;">menu d'accueil</b> plein &#233;cran, une <b style="color:#13283F;">barre lat&#233;rale d'applications</b>, une interface qui s'adapte aux t&#233;l&#233;phones et tablettes, un <b style="color:#13283F;">mode sombre</b>, et une page de param&#232;tres pour appliquer <b style="color:#13283F;">vos couleurs, logos, favicon, page de connexion et arri&#232;re-plans</b> - par soci&#233;t&#233;, sans &#233;crire une ligne de code.</p>
+    </div>
+
+    <!-- ===================== FEATURES ===================== -->
+    <div style="background-color:#F3F5F8; border-radius:16px; padding:44px 20px 24px; margin-bottom:48px;">
+        <h2 style="text-align:center; color:#13283F; font-size:28px; font-weight:700; margin:0 0 8px;">Fonctionnalit&#233;s cl&#233;s</h2><div style="width:60px; height:4px; background-color:#FF7900; border-radius:2px; margin:0 auto 30px;"></div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">01</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">Menu d'accueil style Enterprise</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">Grille d'applications plein &#233;cran avec recherche instantan&#233;e, navigation au clavier et ordre personnalisable par glisser-d&#233;poser, enregistr&#233; par utilisateur.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">02</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">Barre lat&#233;rale des applications</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">Barre &#224; gauche listant vos applications avec leurs ic&#244;nes. Chaque utilisateur choisit Grande, Petite ou Invisible dans ses pr&#233;f&#233;rences. Logo de pied optionnel.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">03</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">Enti&#232;rement responsive</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">Menu burger sur mobile, vues liste, kanban et pivot adapt&#233;es, barre lat&#233;rale compatible tablette : utilisez Odoo confortablement sur tous les &#233;crans.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">04</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">Mode clair &amp; sombre</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">Un vrai th&#232;me sombre pour tout le backend, choisi par utilisateur ; le menu d'accueil suit le mode.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">05</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">Votre identit&#233; visuelle</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">Couleur primaire, barre du haut, barre lat&#233;rale et boutons primaires / secondaires, modifiables dans les Param&#232;tres avec des couleurs CSS.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">06</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">Fonds du menu d'accueil</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">Une image pour le mode clair et une autre pour le mode sombre derri&#232;re votre grille d'applications, avec voile sombre et flou en option.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">07</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">Page de connexion &#224; votre image</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">Votre fond, le logo de votre soci&#233;t&#233; et votre texte de pied de page (&#224; la place de &#171; Powered by Odoo &#187;) sur une carte de connexion centr&#233;e et soign&#233;e : le premier &#233;cran que voient vos utilisateurs. Le module compagnon gratuit &#171; Database Selector Logo &#187; place aussi votre logo sur la page de s&#233;lection de la base de donn&#233;es.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">08</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">Favicon personnalis&#233;</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">Remplacez l'ic&#244;ne Odoo de l'onglet du navigateur par la v&#244;tre, par soci&#233;t&#233;, via un simple import dans les Param&#232;tres.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">09</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">Carte de bienvenue intelligente</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">Avatar, nom, date et horloge en direct. La salutation &#233;volue : bienvenue &#224; la premi&#232;re connexion, bon retour, puis bonjour / bon apr&#232;s-midi / bonsoir.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">10</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">Identit&#233; multi-soci&#233;t&#233;s</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">Chaque soci&#233;t&#233; garde son favicon, ses fonds, ses couleurs et son logo de barre lat&#233;rale. Changez de soci&#233;t&#233; et l'identit&#233; suit.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">11</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">Multilingue</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">Interface et param&#232;tres traduits en anglais, fran&#231;ais, allemand et espagnol. La date et l'horloge suivent la langue de l'utilisateur.</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px; height:100%;">
+                    <div style="width:40px; height:40px; line-height:40px; text-align:center; border-radius:10px; background-color:#13283F; color:#FFFFFF; font-weight:700; font-size:16px; margin-bottom:14px;">12</div>
+                    <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 8px;">Aucun code n&#233;cessaire</h3>
+                    <div style="color:#555555; font-size:14px; line-height:1.6;">Tout se configure depuis une seule page de Param&#232;tres : importez, choisissez une couleur, enregistrez. Un champ vide garde la valeur par d&#233;faut d'Odoo.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== SCREENSHOTS ===================== -->
+    <div style="margin-bottom:48px;">
+        <h2 style="text-align:center; color:#13283F; font-size:28px; font-weight:700; margin:0 0 8px;">Captures d'&#233;cran</h2><div style="width:60px; height:4px; background-color:#FF7900; border-radius:2px; margin:0 auto 14px;"></div><p style="text-align:center; color:#555555; font-size:15px; margin:0 0 28px;">&#201;crans r&#233;els du th&#232;me, en mode clair et sombre, sur ordinateur et mobile.</p>
+        <div class="row justify-content-center">
+            <div class="col-md-6" style="margin-bottom:22px; text-align:center;">
+                <img src="img/screenshot_home_light.png" alt="Menu d'accueil - mode clair, carte de bienvenue avec horloge" class="img-fluid" style="width:100%; height:auto; border:1px solid #E6EAF0; border-radius:10px;"/>
+                <div style="color:#555555; font-size:13px; line-height:1.5; margin-top:8px;">Menu d'accueil - mode clair, carte de bienvenue avec horloge</div>
+            </div>
+            <div class="col-md-6" style="margin-bottom:22px; text-align:center;">
+                <img src="img/screenshot_home_dark.png" alt="Menu d'accueil - mode sombre" class="img-fluid" style="width:100%; height:auto; border:1px solid #E6EAF0; border-radius:10px;"/>
+                <div style="color:#555555; font-size:13px; line-height:1.5; margin-top:8px;">Menu d'accueil - mode sombre</div>
+            </div>
+            <div class="col-md-8" style="margin-bottom:22px; text-align:center;">
+                <img src="img/screenshot_login.png" alt="Page de connexion personnalis&#233;e : votre fond, votre logo et votre pied de page" class="img-fluid" style="width:100%; height:auto; border:1px solid #E6EAF0; border-radius:10px;"/>
+                <div style="color:#555555; font-size:13px; line-height:1.5; margin-top:8px;">Page de connexion personnalis&#233;e : votre fond, votre logo et votre pied de page</div>
+            </div>
+            <div class="col-md-6" style="margin-bottom:22px; text-align:center;">
+                <img src="img/screenshot_sidebar_light.png" alt="Barre lat&#233;rale des applications - mode clair" class="img-fluid" style="width:100%; height:auto; border:1px solid #E6EAF0; border-radius:10px;"/>
+                <div style="color:#555555; font-size:13px; line-height:1.5; margin-top:8px;">Barre lat&#233;rale des applications - mode clair</div>
+            </div>
+            <div class="col-md-6" style="margin-bottom:22px; text-align:center;">
+                <img src="img/screenshot_sidebar_dark.png" alt="Barre lat&#233;rale des applications - mode sombre" class="img-fluid" style="width:100%; height:auto; border:1px solid #E6EAF0; border-radius:10px;"/>
+                <div style="color:#555555; font-size:13px; line-height:1.5; margin-top:8px;">Barre lat&#233;rale des applications - mode sombre</div>
+            </div>
+            <div class="col-md-6" style="margin-bottom:22px; text-align:center;">
+                <img src="img/screenshot_settings_identity.png" alt="Param&#232;tres : logos, favicon et fonds du menu d'accueil" class="img-fluid" style="width:100%; height:auto; border:1px solid #E6EAF0; border-radius:10px;"/>
+                <div style="color:#555555; font-size:13px; line-height:1.5; margin-top:8px;">Param&#232;tres : logos, favicon et fonds du menu d'accueil</div>
+            </div>
+            <div class="col-md-6" style="margin-bottom:22px; text-align:center;">
+                <img src="img/screenshot_settings_colors.png" alt="Param&#232;tres : couleurs de marque, navbar, barre lat&#233;rale et boutons" class="img-fluid" style="width:100%; height:auto; border:1px solid #E6EAF0; border-radius:10px;"/>
+                <div style="color:#555555; font-size:13px; line-height:1.5; margin-top:8px;">Param&#232;tres : couleurs de marque, navbar, barre lat&#233;rale et boutons</div>
+            </div>
+            <div class="col-6 col-md-3" style="margin-bottom:22px; text-align:center;">
+                <img src="img/screenshot_mobile_home.png" alt="Menu d'accueil responsive sur mobile" class="img-fluid" style="width:100%; height:auto; border:1px solid #E6EAF0; border-radius:10px;"/>
+                <div style="color:#555555; font-size:13px; line-height:1.5; margin-top:8px;">Menu d'accueil responsive sur mobile</div>
+            </div>
+            <div class="col-6 col-md-3" style="margin-bottom:22px; text-align:center;">
+                <img src="img/screenshot_mobile_app.png" alt="Application responsive avec menu burger" class="img-fluid" style="width:100%; height:auto; border:1px solid #E6EAF0; border-radius:10px;"/>
+                <div style="color:#555555; font-size:13px; line-height:1.5; margin-top:8px;">Application responsive avec menu burger</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== WHY ===================== -->
+    <div style="text-align:center; max-width:840px; margin:0 auto 48px;">
+        <h2 style="color:#13283F; font-size:28px; font-weight:700; margin:0 0 14px;">Pourquoi choisir ce th&#232;me Odoo 19 ?</h2>
+        <div style="width:60px; height:4px; background-color:#FF7900; border-radius:2px; margin:0 auto 20px;"></div>
+        <p style="font-size:16px; line-height:1.7; color:#555555; margin:0 0 14px;">La plupart des th&#232;mes backend sont lourds &#224; installer ou difficiles &#224; personnaliser. Celui-ci est <b style="color:#13283F;">autonome</b> (aucun module suppl&#233;mentaire), <b style="color:#13283F;">l&#233;ger</b> (ressources Odoo natives, aucune biblioth&#232;que externe) et <b style="color:#13283F;">configurable depuis l'interface</b>. Si vous cherchez un <b style="color:#13283F;">th&#232;me Odoo 19 Community</b>, un <b style="color:#13283F;">backend de style Enterprise</b>, un <b style="color:#13283F;">backend Odoo responsive</b>, un <b style="color:#13283F;">mode sombre pour Odoo</b> ou un <b style="color:#13283F;">th&#232;me Odoo en marque blanche</b> aux couleurs de votre entreprise, c'est le bon module.</p>
+        <p style="font-size:13px; line-height:1.6; color:#8A93A0; margin:0;">th&#232;me Odoo 19, th&#232;me backend Odoo 19, th&#232;me Odoo Community, th&#232;me style Enterprise, th&#232;me Odoo responsive, mode sombre Odoo, barre lat&#233;rale Odoo, menu d'accueil Odoo, marque blanche Odoo, personnalisation Odoo.</p>
+    </div>
+
+    <!-- ===================== BUILT FOR ===================== -->
+    <div style="text-align:center; margin-bottom:48px;">
+        <h2 style="text-align:center; color:#13283F; font-size:28px; font-weight:700; margin:0 0 8px;">Con&#231;u pour</h2><div style="width:60px; height:4px; background-color:#FF7900; border-radius:2px; margin:0 auto 30px;"></div>
+        <div style="max-width:900px; margin:0 auto;"><span style="display:inline-block; background-color:#13283F; color:#FFFFFF; border-radius:22px; padding:8px 18px; margin:5px; font-size:14px; font-weight:600;">Utilisateurs d'Odoo Community</span><span style="display:inline-block; background-color:#13283F; color:#FFFFFF; border-radius:22px; padding:8px 18px; margin:5px; font-size:14px; font-weight:600;">Int&#233;grateurs &amp; revendeurs</span><span style="display:inline-block; background-color:#13283F; color:#FFFFFF; border-radius:22px; padding:8px 18px; margin:5px; font-size:14px; font-weight:600;">Entreprises avec une identit&#233; de marque</span><span style="display:inline-block; background-color:#13283F; color:#FFFFFF; border-radius:22px; padding:8px 18px; margin:5px; font-size:14px; font-weight:600;">Groupes multi-soci&#233;t&#233;s</span><span style="display:inline-block; background-color:#FF7900; color:#FFFFFF; border-radius:22px; padding:8px 18px; margin:5px; font-size:14px; font-weight:600;">&#201;quipes mobiles</span></div>
+    </div>
+
+    <!-- ===================== HOW IT WORKS ===================== -->
+    <div style="background-color:#F3F5F8; border-radius:16px; padding:44px 20px 30px; margin-bottom:48px;">
+        <h2 style="text-align:center; color:#13283F; font-size:28px; font-weight:700; margin:0 0 8px;">Comment &#231;a marche</h2><div style="width:60px; height:4px; background-color:#FF7900; border-radius:2px; margin:0 auto 30px;"></div>
+        <div class="row">
+            <div class="col-md-4" style="text-align:center; margin-bottom:16px;">
+                <div style="width:56px; height:56px; line-height:56px; border-radius:28px; background-color:#FF7900; color:#FFFFFF; font-size:22px; font-weight:700; margin:0 auto 14px;">1</div>
+                <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 6px;">Installez le module</h3>
+                <div style="color:#555555; font-size:14px; line-height:1.6;">Applications &gt; Hilatech Admin Theme Backend &gt; Installer. La nouvelle interface est active imm&#233;diatement.</div>
+            </div>
+            <div class="col-md-4" style="text-align:center; margin-bottom:16px;">
+                <div style="width:56px; height:56px; line-height:56px; border-radius:28px; background-color:#FF7900; color:#FFFFFF; font-size:22px; font-weight:700; margin:0 auto 14px;">2</div>
+                <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 6px;">Appliquez votre identit&#233;</h3>
+                <div style="color:#555555; font-size:14px; line-height:1.6;">Param&#232;tres &gt; Hilatech Theme : importez vos logos et fonds, choisissez vos couleurs.</div>
+            </div>
+            <div class="col-md-4" style="text-align:center; margin-bottom:16px;">
+                <div style="width:56px; height:56px; line-height:56px; border-radius:28px; background-color:#28A745; color:#FFFFFF; font-size:22px; font-weight:700; margin:0 auto 14px;">3</div>
+                <h3 style="color:#13283F; font-size:17px; font-weight:700; margin:0 0 6px;">Chaque utilisateur personnalise</h3>
+                <div style="color:#555555; font-size:14px; line-height:1.6;">Pr&#233;f&#233;rences : choisissez la taille de la barre lat&#233;rale et le mode clair ou sombre.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== FAQ ===================== -->
+    <div style="max-width:860px; margin:0 auto 48px;">
+        <h2 style="text-align:center; color:#13283F; font-size:28px; font-weight:700; margin:0 0 8px;">Questions fr&#233;quentes</h2><div style="width:60px; height:4px; background-color:#FF7900; border-radius:2px; margin:0 auto 30px;"></div>
+            <div style="background-color:#FFFFFF; border-radius:12px; border-left:4px solid #FF7900; padding:18px 22px; margin-bottom:14px;">
+                <h3 style="color:#13283F; font-size:16px; font-weight:700; margin:0 0 6px;">Fonctionne-t-il avec Odoo Enterprise ?</h3>
+                <div style="color:#555555; font-size:14px; line-height:1.6;">Non. Il est con&#231;u pour Odoo 19 Community, qui n'inclut pas le menu d'accueil ni la barre lat&#233;rale d'Enterprise. Il n'a pas &#233;t&#233; test&#233; sur Enterprise.</div>
+            </div>
+            <div style="background-color:#FFFFFF; border-radius:12px; border-left:4px solid #FF7900; padding:18px 22px; margin-bottom:14px;">
+                <h3 style="color:#13283F; font-size:16px; font-weight:700; margin:0 0 6px;">Faut-il d'autres modules ?</h3>
+                <div style="color:#555555; font-size:14px; line-height:1.6;">Non. Le module est autonome et d&#233;pend seulement de web et base_setup. N'installez pas ica_web_responsive ni muk_web_appsbar avec lui : il int&#232;gre d&#233;j&#224; ces fonctionnalit&#233;s.</div>
+            </div>
+            <div style="background-color:#FFFFFF; border-radius:12px; border-left:4px solid #FF7900; padding:18px 22px; margin-bottom:14px;">
+                <h3 style="color:#13283F; font-size:16px; font-weight:700; margin:0 0 6px;">Chaque soci&#233;t&#233; peut-elle avoir ses couleurs ?</h3>
+                <div style="color:#555555; font-size:14px; line-height:1.6;">Oui. Couleurs, favicon, fonds et logo de barre lat&#233;rale sont enregistr&#233;s par soci&#233;t&#233;.</div>
+            </div>
+            <div style="background-color:#FFFFFF; border-radius:12px; border-left:4px solid #FF7900; padding:18px 22px; margin-bottom:14px;">
+                <h3 style="color:#13283F; font-size:16px; font-weight:700; margin:0 0 6px;">Puis-je revenir &#224; l'apparence par d&#233;faut ?</h3>
+                <div style="color:#555555; font-size:14px; line-height:1.6;">Oui. Laissez une couleur vide pour garder celle d'Odoo, ou d&#233;sinstallez le module.</div>
+            </div>
+    </div>
+
+    <!-- ===================== TECHNICAL ===================== -->
+    <div style="background-color:#F3F5F8; border-radius:16px; padding:44px 20px; margin-bottom:48px;">
+        <h2 style="text-align:center; color:#13283F; font-size:28px; font-weight:700; margin:0 0 8px;">Informations techniques</h2><div style="width:60px; height:4px; background-color:#FF7900; border-radius:2px; margin:0 auto 30px;"></div>
+        <table style="width:100%; max-width:760px; margin:0 auto; border-collapse:collapse; background-color:#FFFFFF; font-size:15px;">
+            <tr><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#13283F; font-weight:700; width:40%;">Version d'Odoo</td><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#555555;">19.0 - Community</td></tr><tr><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#13283F; font-weight:700; width:40%;">D&#233;pendances</td><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#555555;">web, base_setup</td></tr><tr><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#13283F; font-weight:700; width:40%;">Prix</td><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#555555;">25 $, achat unique par version d'Odoo</td></tr><tr><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#13283F; font-weight:700; width:40%;">Droits d'acc&#232;s</td><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#555555;">Param&#232;tres : Administration / Param&#232;tres</td></tr><tr><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#13283F; font-weight:700; width:40%;">Module compagnon</td><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#555555;">Optionnel et gratuit : hilatech_db_selector_logo, votre logo sur la page de s&#233;lection de la base de donn&#233;es</td></tr><tr><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#13283F; font-weight:700; width:40%;">Langues</td><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#555555;">Anglais, fran&#231;ais, allemand, espagnol</td></tr><tr><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#13283F; font-weight:700; width:40%;">Cr&#233;dits</td><td style="padding:13px 18px; border-bottom:1px solid #E6EAF0; color:#555555;">Inspir&#233; de ica_web_responsive (IdeaCode Academy) et muk_web_appsbar (MuK IT), tous deux LGPL-3</td></tr><tr><td style="padding:13px 18px; color:#13283F; font-weight:700; width:40%;">Licence</td><td style="padding:13px 18px; color:#555555;">LGPL-3</td></tr>
+        </table>
+    </div>
+
+    <!-- ===================== OUR SERVICES ===================== -->
+    <div style="background-color:#F3F5F8; border-radius:16px; padding:44px 20px 24px; margin-bottom:48px;">
+        <h2 style="text-align:center; color:#13283F; font-size:28px; font-weight:700; margin:0 0 8px;">Nos services</h2><div style="width:60px; height:4px; background-color:#FF7900; border-radius:2px; margin:0 auto 14px;"></div><p style="text-align:center; color:#555555; font-size:15px; margin:0 0 28px;">Hilatech vous accompagne sur tout votre projet Odoo.</p>
+        <div class="row">
+            <div class="col-6 col-md-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px 12px; text-align:center; height:100%;">
+                    <img src="img/svc_customization.png" alt="Personnalisation Odoo" style="width:56px; height:56px; display:block; margin:0 auto 14px;"/>
+                    <div style="color:#13283F; font-size:16px; font-weight:700;">Personnalisation Odoo</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px 12px; text-align:center; height:100%;">
+                    <img src="img/svc_implementation.png" alt="Impl&#233;mentation Odoo" style="width:56px; height:56px; display:block; margin:0 auto 14px;"/>
+                    <div style="color:#13283F; font-size:16px; font-weight:700;">Impl&#233;mentation Odoo</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px 12px; text-align:center; height:100%;">
+                    <img src="img/svc_support.png" alt="Support &amp; maintenance" style="width:56px; height:56px; display:block; margin:0 auto 14px;"/>
+                    <div style="color:#13283F; font-size:16px; font-weight:700;">Support &amp; maintenance</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px 12px; text-align:center; height:100%;">
+                    <img src="img/svc_migration.png" alt="Migration Odoo" style="width:56px; height:56px; display:block; margin:0 auto 14px;"/>
+                    <div style="color:#13283F; font-size:16px; font-weight:700;">Migration Odoo</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px 12px; text-align:center; height:100%;">
+                    <img src="img/svc_integration.png" alt="Int&#233;gration Odoo" style="width:56px; height:56px; display:block; margin:0 auto 14px;"/>
+                    <div style="color:#13283F; font-size:16px; font-weight:700;">Int&#233;gration Odoo</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px 12px; text-align:center; height:100%;">
+                    <img src="img/svc_consulting.png" alt="Conseil Odoo" style="width:56px; height:56px; display:block; margin:0 auto 14px;"/>
+                    <div style="color:#13283F; font-size:16px; font-weight:700;">Conseil Odoo</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px 12px; text-align:center; height:100%;">
+                    <img src="img/svc_training.png" alt="Formation Odoo" style="width:56px; height:56px; display:block; margin:0 auto 14px;"/>
+                    <div style="color:#13283F; font-size:16px; font-weight:700;">Formation Odoo</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border-radius:12px; border-top:4px solid #FF7900; padding:24px 12px; text-align:center; height:100%;">
+                    <img src="img/svc_developer.png" alt="D&#233;veloppeur d&#233;di&#233;" style="width:56px; height:56px; display:block; margin:0 auto 14px;"/>
+                    <div style="color:#13283F; font-size:16px; font-weight:700;">D&#233;veloppeur d&#233;di&#233;</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== RELATED MODULES ===================== -->
+    <div style="margin-bottom:48px;">
+        <h2 style="text-align:center; color:#13283F; font-size:28px; font-weight:700; margin:0 0 8px;">Modules associ&#233;s</h2><div style="width:60px; height:4px; background-color:#FF7900; border-radius:2px; margin:0 auto 14px;"></div><p style="text-align:center; color:#555555; font-size:15px; margin:0 0 28px;">Les autres applications Hilatech pour Odoo 19.</p>
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border:1px solid #E6EAF0; border-radius:12px; padding:14px; height:100%;">
+                    <a href="https://apps.odoo.com/apps/modules/19.0/hilatech_pos_cash_closing" target="_blank"><img src="img/related_hilatech_pos_cash_closing.png" alt="Cl&#244;ture de caisse POS" class="img-fluid" style="width:100%; height:auto; border-radius:8px; margin-bottom:14px;"/></a>
+                    <div style="color:#13283F; font-size:17px; font-weight:700; margin-bottom:6px;">Cl&#244;ture de caisse POS</div>
+                    <div style="color:#555555; font-size:14px; line-height:1.6; margin-bottom:12px;">Comptage quotidien vs Odoo par mode de paiement, manquants et exc&#233;dents, approbation et rapport PDF.</div>
+                    <a href="https://apps.odoo.com/apps/modules/19.0/hilatech_pos_cash_closing" target="_blank" style="color:#FF7900; font-weight:700; font-size:14px; text-decoration:none;">Voir sur Odoo Apps &rarr;</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border:1px solid #E6EAF0; border-radius:12px; padding:14px; height:100%;">
+                    <a href="https://apps.odoo.com/apps/modules/19.0/hilatech_hotel_management" target="_blank"><img src="img/related_hilatech_hotel_management.png" alt="Gestion h&#244;teli&#232;re PMS 360&#176;" class="img-fluid" style="width:100%; height:auto; border-radius:8px; margin-bottom:14px;"/></a>
+                    <div style="color:#13283F; font-size:17px; font-weight:700; margin-bottom:6px;">Gestion h&#244;teli&#232;re PMS 360&#176;</div>
+                    <div style="color:#555555; font-size:14px; line-height:1.6; margin-bottom:12px;">Planning des chambres, r&#233;servations, check-in / check-out, folio client, facturation et m&#233;nage.</div>
+                    <a href="https://apps.odoo.com/apps/modules/19.0/hilatech_hotel_management" target="_blank" style="color:#FF7900; font-weight:700; font-size:14px; text-decoration:none;">Voir sur Odoo Apps &rarr;</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border:1px solid #E6EAF0; border-radius:12px; padding:14px; height:100%;">
+                    <a href="https://apps.odoo.com/apps/modules/19.0/hilatech_export_accounting_report" target="_blank"><img src="img/related_hilatech_export_accounting_report.png" alt="Export des rapports comptables vers Excel" class="img-fluid" style="width:100%; height:auto; border-radius:8px; margin-bottom:14px;"/></a>
+                    <div style="color:#13283F; font-size:17px; font-weight:700; margin-bottom:6px;">Export des rapports comptables vers Excel</div>
+                    <div style="color:#555555; font-size:14px; line-height:1.6; margin-bottom:12px;">12 rapports Base Accounting Kit et vos factures export&#233;s vers Excel en un clic.</div>
+                    <a href="https://apps.odoo.com/apps/modules/19.0/hilatech_export_accounting_report" target="_blank" style="color:#FF7900; font-weight:700; font-size:14px; text-decoration:none;">Voir sur Odoo Apps &rarr;</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3" style="margin-bottom:20px;">
+                <div style="background-color:#FFFFFF; border:1px solid #E6EAF0; border-radius:12px; padding:14px; height:100%;">
+                    <a href="https://apps.odoo.com/apps/modules/19.0/hilatech_purchase_dashboard" target="_blank"><img src="img/related_hilatech_purchase_dashboard.png" alt="Tableau de bord Achats" class="img-fluid" style="width:100%; height:auto; border-radius:8px; margin-bottom:14px;"/></a>
+                    <div style="color:#13283F; font-size:17px; font-weight:700; margin-bottom:6px;">Tableau de bord Achats</div>
+                    <div style="color:#555555; font-size:14px; line-height:1.6; margin-bottom:12px;">Achats, dette fournisseurs, commandes non re&#231;ues ou non factur&#233;es et meilleurs fournisseurs.</div>
+                    <a href="https://apps.odoo.com/apps/modules/19.0/hilatech_purchase_dashboard" target="_blank" style="color:#FF7900; font-weight:700; font-size:14px; text-decoration:none;">Voir sur Odoo Apps &rarr;</a>
+                </div>
+            </div>
+        </div>
+        <div style="text-align:center; margin-top:8px;">
+            <a href="https://apps.odoo.com/apps/modules/browse?author=HILATECH" target="_blank" rel="noopener noreferrer" style="display:inline-block; background-color:#13283F; color:#FFFFFF; text-decoration:none; font-weight:700; font-size:15px; border-radius:24px; padding:11px 28px;">Voir tous les modules Hilatech &rarr;</a>
+        </div>
+    </div>
+
+    </div>
+
+    </div>
+
+    <!-- ===================== FOOTER ===================== -->
+    <div style="background-color:#13283F; background-image:url('back-07.png'); background-size:cover; background-position:center; border-radius:16px; padding:46px 24px 30px; text-align:center; margin-bottom:24px;">
+        <img src="img/logo_hilatech_white.png" alt="HILATECH" style="width:210px; max-width:70%; height:auto; display:block; margin:0 auto 18px;"/>
+        <div style="color:#FFFFFF; font-size:24px; font-weight:700; margin-bottom:8px;">Need help or a custom theme? / Besoin d&#39;aide ou d&#39;un th&egrave;me sur mesure ?</div>
+        <div style="color:#D5DDE8; font-size:15px; line-height:1.6; max-width:640px; margin:0 auto 24px;">
+            HILATECH &mdash; Odoo integrator. Support, implementation and custom Odoo development, in English and French.
+        </div>
+        <div style="margin-bottom:24px;">
+            <a href="mailto:support@hilatech.co" style="display:inline-block; background-color:#FF7900; color:#FFFFFF; text-decoration:none; font-weight:700; font-size:15px; border-radius:24px; padding:11px 26px; margin:5px;">support@hilatech.co</a>
+            <a href="https://hilatech.co/" target="_blank" rel="noopener noreferrer" style="display:inline-block; background-color:#FFFFFF; color:#13283F; text-decoration:none; font-weight:700; font-size:15px; border-radius:24px; padding:11px 26px; margin:5px;">hilatech.co</a>
+            <a href="https://api.whatsapp.com/send?phone=237694846159" target="_blank" rel="noopener noreferrer" style="display:inline-block; background-color:#25D366; color:#FFFFFF; text-decoration:none; font-weight:700; font-size:15px; border-radius:24px; padding:11px 26px; margin:5px;">WhatsApp</a>
+        </div>
+        <div style="border-top:1px solid #2C4866; padding-top:18px; color:#9FB0C4; font-size:13px;">
+            &copy; 2026 HILATECH &mdash; Digitalisez. Optimisez. Excellez.
+        </div>
+    </div>
+
+</div>

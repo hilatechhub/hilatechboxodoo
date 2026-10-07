@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record id="view_theme_settings_form" model="ir.ui.view">
+        <field name="name">hilatech.theme.settings.form</field>
+        <field name="model">hilatech.theme.settings</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <h1>Theme Footer Text</h1>
+                    <group>
+                        <field name="footer_text"/>
+                    </group>
+                    <p class="mt-3 text-muted">
+                        Leave empty to hide "Powered by Odoo" text, or enter your own text (e.g., "© 2026 My Company")
+                    </p>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_theme_settings" model="ir.actions.act_window">
+        <field name="name">Theme Settings</field>
+        <field name="res_model">hilatech.theme.settings</field>
+        <field name="view_mode">form</field>
+        <field name="target">current</field>
+    </record>
+
+</odoo>

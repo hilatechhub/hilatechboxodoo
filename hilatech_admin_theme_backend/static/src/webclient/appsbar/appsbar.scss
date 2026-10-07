@@ -1,0 +1,95 @@
+.hl_apps_sidebar_panel {
+    @include hl-disable-scrollbar();
+    background-color: var(--hl-appbar-bg, #{$hl-appbar-background});
+    width: var(--hl-sidebar-width, 0);
+    overflow-y: auto;
+    .hl_apps_sidebar {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+	    white-space: nowrap;
+	    .hl_apps_sidebar_menu {
+	    	padding: 0;
+		    > li > a {
+		        cursor: pointer;
+	            font-size: 13px;
+	            font-weight: 300;
+	            overflow: hidden;
+	            padding: 8px 11px;
+	            text-decoration: none;
+	            color: var(--hl-appbar-color, #{$hl-appbar-color});
+	            text-overflow: ellipsis;
+	            .hl_apps_sidebar_icon {
+				    width: 22px;
+				    height: 22px;
+	    			margin-right: 5px;
+				}
+		    }
+	        > li.active > a {
+			    background: var(--hl-appbar-active, #{$hl-appbar-active});
+	        }
+	        > li:hover > a {
+			    background: var(--hl-appbar-active, #{$hl-appbar-active});
+	        }
+	    }
+	}
+}
+
+.hl_sidebar_type_large {
+	--hl-sidebar-width: #{$hl-sidebar-large-width};
+}
+
+.hl_sidebar_type_small {
+	--hl-sidebar-width: #{$hl-sidebar-small-width};
+	.hl_apps_sidebar_name {
+		display: none;
+	}
+	.hl_apps_sidebar_icon {
+		margin-right: 0 !important;
+	}
+   	.hl_apps_sidebar_logo {
+		display: none;
+	}
+}
+
+.hl_sidebar_type_invisible {
+	--hl-sidebar-width: 0;
+}
+
+.editor_has_snippets_hide_backend_navbar,
+.o_home_menu_background,
+.o_fullscreen {
+	--hl-sidebar-width: 0;
+}
+
+.editor_has_snippets_hide_backend_navbar .hl_apps_sidebar_panel {
+    transition: width 300ms;
+}
+
+@include media-breakpoint-only(md) {
+	.hl_sidebar_type_large {
+		--hl-sidebar-width: #{$hl-sidebar-small-width};
+		.hl_apps_sidebar_name {
+			display: none;
+		}
+		.hl_apps_sidebar_icon {
+			margin-right: 0 !important;
+		}
+	   	.hl_apps_sidebar_logo {
+			display: none;
+		}
+	}
+}
+
+@include media-breakpoint-down(md) {
+	.hl_sidebar_type_large, .hl_sidebar_type_small {
+		--hl-sidebar-width: 0;
+	}
+}
+
+@media print {
+	.hl_sidebar_type_large, .hl_sidebar_type_small {
+		--hl-sidebar-width: 0;
+	}
+}
